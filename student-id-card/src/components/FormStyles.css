@@ -1,0 +1,68 @@
+/* src/styles/FormStyles.css */
+
+.student-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color:aliceblue;
+}
+
+.student-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.student-form label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+    font-weight: 600;
+}
+
+.student-form input,
+.student-form select,
+.student-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.student-form input:focus,
+.student-form select:focus,
+.student-form textarea:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.student-form .photo-preview {
+    margin-top: 10px;
+    max-width: 120px;
+    border-radius: 10px;
+}
+
+.student-form button {
+    background-color: #4f46e5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.student-form button:hover {
+    background-color: #3730a3;
+}

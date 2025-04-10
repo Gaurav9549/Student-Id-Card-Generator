@@ -1,0 +1,138 @@
+.idcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------------------- Shared Styles ---------------------- */
+.idcard {
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", sans-serif;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+.top-header {
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 15px;
+}
+
+.top-header h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.top-header p {
+    margin: 4px 0 0;
+    font-size: 12px;
+    color: #e0e0e0;
+}
+
+.photo-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.download-btn {
+    margin-top: 16px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #005bb5;
+}
+
+/* --------------------- Template 1 ---------------------- */
+.template-1 {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    text-align: center;
+}
+
+.template-1 .photo-section {
+    margin-bottom: 12px;
+}
+
+.template-1 .student-name {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0 14px;
+    font-weight: bold;
+}
+
+.template-1 .info-section {
+    font-size: 13px;
+    color: #f3f3f3;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0 12px;
+}
+
+.template-1 .qr-section {
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+/* --------------------- Template 2 ---------------------- */
+.template-2 {
+    background: linear-gradient(to right, #43cea2, #185a9d); /* Modern teal-blue */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: left;
+  }
+  
+  .template-2 .template2-body {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  
+  .template-2 .photo-section img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+  }
+  
+  .template-2 .info-section {
+    font-size: 14px;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+  .template-2 .student-name {
+    font-size: 19px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .template-2 .qr-section {
+    margin-top: 20px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 8px;
+    border-radius: 12px;
+  }
+  

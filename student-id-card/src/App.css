@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('/school.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+
+h1 {
+  color: #222;
+}

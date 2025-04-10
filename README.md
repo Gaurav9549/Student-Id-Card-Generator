@@ -4,7 +4,7 @@ A sleek and modern web application to generate personalized student ID cards for
 
 ## 🖼️ Live Demo
 
-🚀 [Click here to try it out!]([https://your-live-site-link.com](https://fantastic-empanada-7a9f57.netlify.app/)) <!-- Replace with your actual link -->
+🚀 [Click here to try it out!](https://fantastic-empanada-7a9f57.netlify.app/) <!-- Replace with your actual link -->
 
 ---
 
@@ -28,4 +28,5 @@ A sleek and modern web application to generate personalized student ID cards for
 
 ---
 
+## 📂 Folder Structure
 

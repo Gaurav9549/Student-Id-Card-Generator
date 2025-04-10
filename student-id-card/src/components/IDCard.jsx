@@ -101,6 +101,7 @@ const IDCard = ({ studentData, template }) => {
       </button>
     </div>
   );
+  
 };
 
 export default IDCard;
